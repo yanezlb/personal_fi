@@ -68,14 +68,14 @@ class DatabaseSeeder extends Seeder
 
         Transaction::create([
             'category_id' => 1,
-            'type_id' => 2,
+            'type_id' => 1,
             'description' => 'Salario Mayo',
             'amount' => 350.53,
         ]);
 
         Transaction::create([
             'category_id' => 4,
-            'type_id' => 1,
+            'type_id' => 2,
             'description' => 'Mercado',
             'amount' => 450.50,
         ]);
